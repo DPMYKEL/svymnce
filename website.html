@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exclusive Product</title>
+  <style>
+    /* Basic reset and minimalist styling */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background-color: #fff;
+      color: #000;
+      text-align: center;
+      line-height: 1.6;
+    }
+    header, footer {
+      padding: 2rem 0;
+    }
+    header {
+      border-bottom: 1px solid #ddd;
+    }
+    footer {
+      border-top: 1px solid #ddd;
+      font-size: 0.8rem;
+    }
+    .product-section {
+      max-width: 900px;
+      margin: 4rem auto;
+      padding: 0 1rem;
+    }
+    .product-image {
+      width: 100%;
+      height: auto;
+      margin-bottom: 2rem;
+    }
+    .product-info h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .product-info p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .buy-button {
+      display: inline-block;
+      text-decoration: none;
+      padding: 1rem 2rem;
+      background-color: #000;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      transition: background-color 0.3s ease;
+    }
+    .buy-button:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Exclusive Drop</h1>
+  </header>
+
+  <main class="product-section">
+    <img src="your-product-image.jpg" alt="Exclusive Product" class="product-image">
+    <div class="product-info">
+      <h2>Product Name</h2>
+      <p>$199</p>
+      <!-- Updated "Buy Now" link using your Bitcoin URI -->
+      <a href="bitcoin:bc1q3yyxqgkd4g3mx9lhycpqzxlls94k20qljat7cd?message=SVYMNCE" class="buy-button">
+        Buy Now
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mr. Pearson. All rights reserved.</p>
+  </footer>
+</body>
+</html>

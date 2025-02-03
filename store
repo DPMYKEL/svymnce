@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVY MNC</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">SVY MNC</div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="store" class="store-section">
+            <div class="container">
+                <h2></h2>
+                <div class="store" id="store"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 SVY MNC. All Rights Reserved.</p>
+    </footer>
+
+    <script src="src/js/main.js"></script>
+</body>
+</html>
